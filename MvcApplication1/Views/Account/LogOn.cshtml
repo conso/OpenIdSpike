@@ -1,0 +1,35 @@
+﻿@model MvcApplication1.Models.LogOnModel
+
+@{
+    ViewBag.Title = "Log On";
+}
+
+<h2>Log On</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")
+
+@using(Html.BeginForm("LogOn", "Account", FormMethod.Post, new { @id = "openIdForm" })) {
+<table>
+<tbody><tr>
+<td>
+@Html.Hidden("loginIdentifier", "https://www.google.com/accounts/o8/id")
+<a href="javascript:$('#openIdForm').submit();">Log In by Google</a>
+</td>
+</tr>
+</tbody></table>
+}
+
+
+@using(Html.BeginForm("LogOnF", "Account", FormMethod.Post, new { @id = "facebookForm" })) {
+<table>
+<tbody><tr>
+<td>
+
+<a href="javascript:$('#facebookForm').submit();">Log In by Facebook</a>
+</td>
+</tr>
+</tbody></table>
+}

@@ -1,0 +1,9 @@
+*.user
+bin
+obj
+Bin
+*.ncrunchsolution
+*.ncrunchsolution.*
+*.suo
+*.pidb
+*.userprefs

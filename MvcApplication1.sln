@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication1", "MvcApplication1\MvcApplication1.csproj", "{F47715D0-B780-410F-B90E-DCC14B5E56BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIdInnovation", "OpenIdInnovation\OpenIdInnovation.csproj", "{5DC72FAD-B762-4665-BBAE-74EC94B00244}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F47715D0-B780-410F-B90E-DCC14B5E56BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47715D0-B780-410F-B90E-DCC14B5E56BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47715D0-B780-410F-B90E-DCC14B5E56BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47715D0-B780-410F-B90E-DCC14B5E56BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC72FAD-B762-4665-BBAE-74EC94B00244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC72FAD-B762-4665-BBAE-74EC94B00244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC72FAD-B762-4665-BBAE-74EC94B00244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC72FAD-B762-4665-BBAE-74EC94B00244}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
